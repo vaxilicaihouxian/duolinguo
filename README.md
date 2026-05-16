@@ -59,6 +59,15 @@ CEFR 四级课程，JSON 驱动（`src/data/courses/`）：
 
 选择题额外需要 `options` + `correctIndex`，听力题需要 `audioText`，口语题需要 `targetText` + `scoringThreshold`。
 
+## 截图
+
+<div align="center">
+  <img src="docs/pic1.jpg" width="200" />
+  <img src="docs/pic2.jpg" width="200" />
+  <img src="docs/pic3.jpg" width="200" />
+  <img src="docs/pic4.jpg" width="200" />
+</div>
+
 ## 项目结构
 
 ```
