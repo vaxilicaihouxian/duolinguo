@@ -54,7 +54,7 @@ export default function QuizEngine({ lesson, lessonId, unitId, onComplete, onFai
         : question.correctAnswer;
 
       const normalize = (s: string) =>
-        s.toLowerCase().replace(/[.,!?;:'"]/g, '').replace(/\s+/g, ' ').trim();
+        s.toLowerCase().replace(/[.,!?;:'"]/g, ' ').replace(/\s+/g, ' ').trim();
 
       const isStrict =
         answer.trim().toLowerCase() === correctAnswer.trim().toLowerCase() ||
