@@ -1,0 +1,800 @@
+{
+  "level": {
+    "id": "b2",
+    "name": "B2 中高级",
+    "description": "适合能流利交流，学习复杂话题表达",
+    "color": "#ff9600"
+  },
+  "units": [
+    {
+      "id": "b2-u1",
+      "title": "工作与面试",
+      "description": "学习职场英语和面试技巧",
+      "unlockRequirement": {
+        "type": "always_unlocked"
+      },
+      "lessons": [
+        {
+          "id": "b2-u1-l1",
+          "title": "自我介绍",
+          "description": "学习在面试中用英语介绍自己",
+          "questions": [
+            {
+              "id": "b2-u1-l1-q1",
+              "type": "choice",
+              "prompt": "\"I graduated from...\" 用来介绍什么？",
+              "correctAnswer": "毕业学校",
+              "acceptableAnswers": [
+                "毕业学校"
+              ],
+              "difficulty": 1,
+              "options": [
+                "毕业学校",
+                "家乡",
+                "爱好",
+                "年龄"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "b2-u1-l1-q2",
+              "type": "fill-blank",
+              "prompt": "完成句子：I have ___ years of experience.（我有五年经验）",
+              "correctAnswer": "five",
+              "acceptableAnswers": [
+                "five",
+                "5"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "b2-u1-l1-q3",
+              "type": "translation",
+              "prompt": "请翻译成英文：我擅长团队合作",
+              "correctAnswer": "I am good at teamwork",
+              "acceptableAnswers": [
+                "i am good at teamwork",
+                "I'm good at teamwork",
+                "im good at teamwork",
+                "I am a good team player",
+                "i am a good team player"
+              ],
+              "direction": "zh-to-en",
+              "difficulty": 2
+            },
+            {
+              "id": "b2-u1-l1-q4",
+              "type": "choice",
+              "prompt": "\"Major\" 在大学语境下指什么？",
+              "correctAnswer": "专业",
+              "acceptableAnswers": [
+                "专业"
+              ],
+              "difficulty": 1,
+              "options": [
+                "专业",
+                "校长",
+                "主楼",
+                "主要"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "b2-u1-l1-q5",
+              "type": "fill-blank",
+              "prompt": "完成句子：My ___ is Computer Science.（我的专业是计算机科学）",
+              "correctAnswer": "major",
+              "acceptableAnswers": [
+                "major"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "b2-u1-l1-q6",
+              "type": "translation",
+              "prompt": "请翻译成中文：I am a quick learner",
+              "correctAnswer": "我学东西很快",
+              "acceptableAnswers": [
+                "我学东西很快",
+                "我学习能力很强",
+                "我上手很快"
+              ],
+              "direction": "en-to-zh",
+              "difficulty": 2
+            },
+            {
+              "id": "b2-u1-l1-q7",
+              "type": "choice",
+              "prompt": "\"Strengths and weaknesses\" 指什么？",
+              "correctAnswer": "优点和缺点",
+              "acceptableAnswers": [
+                "优点和缺点"
+              ],
+              "difficulty": 2,
+              "options": [
+                "优点和缺点",
+                "力量和虚弱",
+                "强壮和弱小",
+                "长处和短处"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "b2-u1-l1-q8",
+              "type": "fill-blank",
+              "prompt": "完成句子：I am looking for a new ___.（我在找新的挑战）",
+              "correctAnswer": "challenge",
+              "acceptableAnswers": [
+                "challenge",
+                "job",
+                "opportunity",
+                "position"
+              ],
+              "difficulty": 2
+            },
+            {
+              "id": "b2-u1-l1-q9",
+              "type": "listening",
+              "prompt": "听录音，写出你听到的英文句子（点击播放按钮）",
+              "correctAnswer": "I graduated from university",
+              "acceptableAnswers": [
+                "i graduated from university",
+                "I graduated from college"
+              ],
+              "difficulty": 2,
+              "audioText": "I graduated from university"
+            },
+            {
+              "id": "b2-u1-l1-q10",
+              "type": "speaking",
+              "prompt": "请朗读下面的句子",
+              "correctAnswer": "I am good at teamwork",
+              "acceptableAnswers": [
+                "im good at teamwork",
+                "i am good at teamwork",
+                "I am a good team player"
+              ],
+              "difficulty": 2,
+              "targetText": "I am good at teamwork",
+              "scoringThreshold": 70
+            }
+          ]
+        },
+        {
+          "id": "b2-u1-l2",
+          "title": "办公室日常",
+          "description": "学习办公室常见场景对话",
+          "questions": [
+            {
+              "id": "b2-u1-l2-q1",
+              "type": "choice",
+              "prompt": "\"Deadline\" 是什么意思？",
+              "correctAnswer": "截止日期",
+              "acceptableAnswers": [
+                "截止日期"
+              ],
+              "difficulty": 1,
+              "options": [
+                "截止日期",
+                "死线",
+                "任务",
+                "目标"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "b2-u1-l2-q2",
+              "type": "fill-blank",
+              "prompt": "完成句子：Can we ___ the meeting to 3 pm?（能把会议推迟到三点吗）",
+              "correctAnswer": "postpone",
+              "acceptableAnswers": [
+                "postpone",
+                "reschedule",
+                "move",
+                "delay"
+              ],
+              "difficulty": 2
+            },
+            {
+              "id": "b2-u1-l2-q3",
+              "type": "translation",
+              "prompt": "请翻译成英文：我需要请一天假",
+              "correctAnswer": "I need to take a day off",
+              "acceptableAnswers": [
+                "i need to take a day off",
+                "I need a day off",
+                "i need a day off",
+                "I want to take a day off",
+                "i want to take a day off"
+              ],
+              "direction": "zh-to-en",
+              "difficulty": 2
+            },
+            {
+              "id": "b2-u1-l2-q4",
+              "type": "choice",
+              "prompt": "\"Colleague\" 指什么？",
+              "correctAnswer": "同事",
+              "acceptableAnswers": [
+                "同事"
+              ],
+              "difficulty": 1,
+              "options": [
+                "同事",
+                "大学",
+                "收集",
+                "学院"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "b2-u1-l2-q5",
+              "type": "fill-blank",
+              "prompt": "完成句子：I'll send you the ___ by email.（我会把报告通过邮件发给你）",
+              "correctAnswer": "report",
+              "acceptableAnswers": [
+                "report",
+                "file",
+                "document"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "b2-u1-l2-q6",
+              "type": "translation",
+              "prompt": "请翻译成中文：Let me check my schedule first",
+              "correctAnswer": "让我先看看我的日程",
+              "acceptableAnswers": [
+                "让我先看看我的日程",
+                "我先查一下我的日程",
+                "让我先检查我的时间表"
+              ],
+              "direction": "en-to-zh",
+              "difficulty": 2
+            },
+            {
+              "id": "b2-u1-l2-q7",
+              "type": "choice",
+              "prompt": "\"Overtime\" 是什么意思？",
+              "correctAnswer": "加班",
+              "acceptableAnswers": [
+                "加班"
+              ],
+              "difficulty": 1,
+              "options": [
+                "加班",
+                "超时",
+                "结束时间",
+                "休息时间"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "b2-u1-l2-q8",
+              "type": "fill-blank",
+              "prompt": "完成句子：I have a ___ with the client tomorrow.（我明天和客户有个会）",
+              "correctAnswer": "meeting",
+              "acceptableAnswers": [
+                "meeting",
+                "call",
+                "meet"
+              ],
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "id": "b2-u1-l3",
+          "title": "商务邮件",
+          "description": "学习撰写英文商务邮件",
+          "questions": [
+            {
+              "id": "b2-u1-l3-q1",
+              "type": "choice",
+              "prompt": "正式邮件开头用哪个？",
+              "correctAnswer": "Dear Mr. Smith",
+              "acceptableAnswers": [
+                "Dear Mr. Smith"
+              ],
+              "difficulty": 1,
+              "options": [
+                "Dear Mr. Smith",
+                "Hi buddy",
+                "Hey you",
+                "Yo Smith"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "b2-u1-l3-q2",
+              "type": "fill-blank",
+              "prompt": "完成句子：I am writing to ___ about...（我写信是想询问关于...）",
+              "correctAnswer": "inquire",
+              "acceptableAnswers": [
+                "inquire",
+                "ask",
+                "enquire"
+              ],
+              "difficulty": 3
+            },
+            {
+              "id": "b2-u1-l3-q3",
+              "type": "translation",
+              "prompt": "请翻译成英文：请查收附件",
+              "correctAnswer": "Please find the attachment",
+              "acceptableAnswers": [
+                "please find the attachment",
+                "Please see the attachment",
+                "please see the attachment",
+                "Please check the attachment",
+                "please check the attachment"
+              ],
+              "direction": "zh-to-en",
+              "difficulty": 3
+            },
+            {
+              "id": "b2-u1-l3-q4",
+              "type": "choice",
+              "prompt": "\"Looking forward to hearing from you\" 是什么意思？",
+              "correctAnswer": "期待你的回复",
+              "acceptableAnswers": [
+                "期待你的回复"
+              ],
+              "difficulty": 2,
+              "options": [
+                "期待你的回复",
+                "正在听你说话",
+                "向前看向你听",
+                "希望看到你"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "b2-u1-l3-q5",
+              "type": "fill-blank",
+              "prompt": "完成句子：___ regards.（此致敬礼）",
+              "correctAnswer": "Best",
+              "acceptableAnswers": [
+                "Best",
+                "Kind",
+                "Warm",
+                "With"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "b2-u1-l3-q6",
+              "type": "translation",
+              "prompt": "请翻译成中文：I would appreciate it if you could reply at your earliest convenience",
+              "correctAnswer": "如能尽快回复，我将不胜感激",
+              "acceptableAnswers": [
+                "如能尽快回复我将不胜感激",
+                "如果你方便的话尽早回复我感激不尽",
+                "请尽早回复不胜感激"
+              ],
+              "direction": "en-to-zh",
+              "difficulty": 3
+            },
+            {
+              "id": "b2-u1-l3-q7",
+              "type": "choice",
+              "prompt": "\"CC\" 在邮件中是什么？",
+              "correctAnswer": "抄送",
+              "acceptableAnswers": [
+                "抄送"
+              ],
+              "difficulty": 1,
+              "options": [
+                "抄送",
+                "密送",
+                "回复",
+                "转发"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "b2-u1-l3-q8",
+              "type": "fill-blank",
+              "prompt": "完成句子：Please do not ___ to reply.（请不要犹豫回复）",
+              "correctAnswer": "hesitate",
+              "acceptableAnswers": [
+                "hesitate"
+              ],
+              "difficulty": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-u2",
+      "title": "文化与社交",
+      "description": "学习讨论文化差异和社交话题",
+      "unlockRequirement": {
+        "type": "all_lessons_completed",
+        "unitId": "b2-u1"
+      },
+      "lessons": [
+        {
+          "id": "b2-u2-l1",
+          "title": "谈论爱好",
+          "description": "学习用英语深入讨论兴趣爱好",
+          "questions": [
+            {
+              "id": "b2-u2-l1-q1",
+              "type": "choice",
+              "prompt": "\"I'm passionate about...\" 表达什么？",
+              "correctAnswer": "对某事充满热情",
+              "acceptableAnswers": [
+                "对某事充满热情"
+              ],
+              "difficulty": 2,
+              "options": [
+                "对某事充满热情",
+                "对某事感到生气",
+                "对某事感到无聊",
+                "对某事感到困惑"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "b2-u2-l1-q2",
+              "type": "fill-blank",
+              "prompt": "完成句子：In my ___ time, I like to read.（在空闲时间，我喜欢阅读）",
+              "correctAnswer": "spare",
+              "acceptableAnswers": [
+                "spare",
+                "free"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "b2-u2-l1-q3",
+              "type": "translation",
+              "prompt": "请翻译成英文：我对摄影很感兴趣",
+              "correctAnswer": "I'm interested in photography",
+              "acceptableAnswers": [
+                "im interested in photography",
+                "I am interested in photography",
+                "i am interested in photography"
+              ],
+              "direction": "zh-to-en",
+              "difficulty": 2
+            },
+            {
+              "id": "b2-u2-l1-q4",
+              "type": "choice",
+              "prompt": "\"What do you do for fun?\" 问什么？",
+              "correctAnswer": "你平时喜欢做什么？",
+              "acceptableAnswers": [
+                "你平时喜欢做什么？"
+              ],
+              "difficulty": 1,
+              "options": [
+                "你平时喜欢做什么？",
+                "你工作是做什么的？",
+                "你为什么要玩？",
+                "你喜欢玩什么游戏？"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "b2-u2-l1-q5",
+              "type": "fill-blank",
+              "prompt": "完成句子：I am a big ___ of jazz music.（我是爵士乐的忠实粉丝）",
+              "correctAnswer": "fan",
+              "acceptableAnswers": [
+                "fan",
+                "Fan"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "b2-u2-l1-q6",
+              "type": "translation",
+              "prompt": "请翻译成中文：I've been playing the guitar for five years",
+              "correctAnswer": "我弹吉他五年了",
+              "acceptableAnswers": [
+                "我弹吉他五年了",
+                "我弹了五年吉他",
+                "我已经弹吉他五年了"
+              ],
+              "direction": "en-to-zh",
+              "difficulty": 2
+            },
+            {
+              "id": "b2-u2-l1-q7",
+              "type": "choice",
+              "prompt": "\"I'm not really into...\" 表示什么？",
+              "correctAnswer": "我对...不太感兴趣",
+              "acceptableAnswers": [
+                "我对...不太感兴趣"
+              ],
+              "difficulty": 2,
+              "options": [
+                "我对...不太感兴趣",
+                "我想进去...",
+                "我不理解...",
+                "我不擅长..."
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "b2-u2-l1-q8",
+              "type": "fill-blank",
+              "prompt": "完成句子：Would you ___ to join us?（你想加入我们吗）",
+              "correctAnswer": "like",
+              "acceptableAnswers": [
+                "like",
+                "Like",
+                "care",
+                "want"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "b2-u2-l1-q9",
+              "type": "listening",
+              "prompt": "听录音，写出你听到的英文句子（点击播放按钮）",
+              "correctAnswer": "In my spare time, I like to read",
+              "acceptableAnswers": [
+                "in my spare time i like to read",
+                "In my free time I like to read",
+                "in my free time i like to read"
+              ],
+              "difficulty": 2,
+              "audioText": "In my spare time, I like to read"
+            },
+            {
+              "id": "b2-u2-l1-q10",
+              "type": "speaking",
+              "prompt": "请朗读下面的句子",
+              "correctAnswer": "Every country has its own cultural traditions",
+              "acceptableAnswers": [
+                "every country has its own cultural traditions",
+                "Each country has its own cultural traditions"
+              ],
+              "difficulty": 3,
+              "targetText": "Every country has its own cultural traditions",
+              "scoringThreshold": 60
+            }
+          ]
+        },
+        {
+          "id": "b2-u2-l2",
+          "title": "文化差异",
+          "description": "学习讨论不同文化习俗",
+          "questions": [
+            {
+              "id": "b2-u2-l2-q1",
+              "type": "choice",
+              "prompt": "\"Custom\" 是什么意思？",
+              "correctAnswer": "习俗",
+              "acceptableAnswers": [
+                "习俗"
+              ],
+              "difficulty": 1,
+              "options": [
+                "习俗",
+                "顾客",
+                "海关",
+                "习惯"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "b2-u2-l2-q2",
+              "type": "fill-blank",
+              "prompt": "完成句子：In China, people usually ___ gifts with both hands.（在中国，人们通常双手递礼物）",
+              "correctAnswer": "present",
+              "acceptableAnswers": [
+                "present",
+                "give",
+                "offer"
+              ],
+              "difficulty": 3
+            },
+            {
+              "id": "b2-u2-l2-q3",
+              "type": "translation",
+              "prompt": "请翻译成英文：每个国家都有自己的文化传统",
+              "correctAnswer": "Every country has its own cultural traditions",
+              "acceptableAnswers": [
+                "every country has its own cultural traditions",
+                "Each country has its own cultural traditions",
+                "each country has its own cultural traditions"
+              ],
+              "direction": "zh-to-en",
+              "difficulty": 3
+            },
+            {
+              "id": "b2-u2-l2-q4",
+              "type": "choice",
+              "prompt": "\"It's considered polite to...\" 什么意思？",
+              "correctAnswer": "做某事被认为是礼貌的",
+              "acceptableAnswers": [
+                "做某事被认为是礼貌的"
+              ],
+              "difficulty": 2,
+              "options": [
+                "做某事被认为是礼貌的",
+                "考虑做某事是礼貌的",
+                "考虑礼节是重要的",
+                "礼貌地考虑某事"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "b2-u2-l2-q5",
+              "type": "fill-blank",
+              "prompt": "完成句子：Please ___ your shoes before entering.（请脱鞋再进来）",
+              "correctAnswer": "remove",
+              "acceptableAnswers": [
+                "remove",
+                "take off"
+              ],
+              "difficulty": 2
+            },
+            {
+              "id": "b2-u2-l2-q6",
+              "type": "translation",
+              "prompt": "请翻译成中文：When in Rome, do as the Romans do",
+              "correctAnswer": "入乡随俗",
+              "acceptableAnswers": [
+                "入乡随俗"
+              ],
+              "direction": "en-to-zh",
+              "difficulty": 2
+            },
+            {
+              "id": "b2-u2-l2-q7",
+              "type": "choice",
+              "prompt": "\"Etiquette\" 指什么？",
+              "correctAnswer": "礼仪",
+              "acceptableAnswers": [
+                "礼仪"
+              ],
+              "difficulty": 2,
+              "options": [
+                "礼仪",
+                "标签",
+                "门票",
+                "小票"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "b2-u2-l2-q8",
+              "type": "fill-blank",
+              "prompt": "完成句子：It is ___ to be on time for a meeting.（准时参加会议很重要）",
+              "correctAnswer": "important",
+              "acceptableAnswers": [
+                "important",
+                "polite",
+                "good"
+              ],
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "id": "b2-u2-l3",
+          "title": "讨论新闻",
+          "description": "学习用英语讨论时事和表达观点",
+          "questions": [
+            {
+              "id": "b2-u2-l3-q1",
+              "type": "choice",
+              "prompt": "\"In my opinion\" 用于什么？",
+              "correctAnswer": "表达个人观点",
+              "acceptableAnswers": [
+                "表达个人观点"
+              ],
+              "difficulty": 1,
+              "options": [
+                "表达个人观点",
+                "提问",
+                "道歉",
+                "告别"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "b2-u2-l3-q2",
+              "type": "fill-blank",
+              "prompt": "完成句子：I totally ___ with you.（我完全同意你）",
+              "correctAnswer": "agree",
+              "acceptableAnswers": [
+                "agree",
+                "Agree"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "b2-u2-l3-q3",
+              "type": "translation",
+              "prompt": "请翻译成英文：我认为这个问题需要更多讨论",
+              "correctAnswer": "I think this issue needs more discussion",
+              "acceptableAnswers": [
+                "i think this issue needs more discussion",
+                "I believe this issue needs more discussion",
+                "i believe this issue needs more discussion"
+              ],
+              "direction": "zh-to-en",
+              "difficulty": 3
+            },
+            {
+              "id": "b2-u2-l3-q4",
+              "type": "choice",
+              "prompt": "\"On the other hand\" 用于什么？",
+              "correctAnswer": "提出另一个观点",
+              "acceptableAnswers": [
+                "提出另一个观点"
+              ],
+              "difficulty": 2,
+              "options": [
+                "提出另一个观点",
+                "握手",
+                "帮忙",
+                "在另一边"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "b2-u2-l3-q5",
+              "type": "fill-blank",
+              "prompt": "完成句子：I see your ___, but...（我理解你的观点，但是...）",
+              "correctAnswer": "point",
+              "acceptableAnswers": [
+                "point",
+                "view",
+                "perspective"
+              ],
+              "difficulty": 2
+            },
+            {
+              "id": "b2-u2-l3-q6",
+              "type": "translation",
+              "prompt": "请翻译成中文：Could you elaborate on that?",
+              "correctAnswer": "你能详细说明一下吗？",
+              "acceptableAnswers": [
+                "你能详细说明一下吗",
+                "你能详细解释一下吗",
+                "你可以详细说明吗"
+              ],
+              "direction": "en-to-zh",
+              "difficulty": 2
+            },
+            {
+              "id": "b2-u2-l3-q7",
+              "type": "choice",
+              "prompt": "\"From my perspective\" 是什么意思？",
+              "correctAnswer": "从我的角度来看",
+              "acceptableAnswers": [
+                "从我的角度来看"
+              ],
+              "difficulty": 2,
+              "options": [
+                "从我的角度来看",
+                "从我的眼镜来看",
+                "展望未来",
+                "回头看"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "b2-u2-l3-q8",
+              "type": "fill-blank",
+              "prompt": "完成句子：Let's agree to ___.（让我们求同存异吧）",
+              "correctAnswer": "disagree",
+              "acceptableAnswers": [
+                "disagree"
+              ],
+              "difficulty": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

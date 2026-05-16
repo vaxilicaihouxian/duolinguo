@@ -1,0 +1,103 @@
+.card {
+  display: flex;
+  align-items: center;
+  padding: var(--duo-space) 0;
+  border-bottom: 1px solid var(--duo-divider);
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.card:active {
+  background: var(--duo-bg-secondary);
+  margin: 0 calc(-1 * var(--duo-space-md));
+  padding-left: var(--duo-space-md);
+  padding-right: var(--duo-space-md);
+  border-radius: var(--duo-radius);
+}
+
+.card:last-child {
+  border-bottom: none;
+}
+
+.complete {
+  opacity: 0.85;
+}
+
+.left {
+  margin-right: var(--duo-space);
+}
+
+.emoji {
+  font-size: 24px;
+}
+
+.center {
+  flex: 1;
+  min-width: 0;
+}
+
+.title {
+  font-size: var(--duo-font-md);
+  font-weight: 600;
+  color: var(--duo-text-primary);
+  margin-bottom: 2px;
+}
+
+.desc {
+  font-size: var(--duo-font-sm);
+  color: var(--duo-text-secondary);
+  margin-bottom: 4px;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: var(--duo-space-sm);
+  font-size: var(--duo-font-xs);
+  color: var(--duo-text-tertiary);
+}
+
+.count {
+  background: var(--duo-bg-secondary);
+  padding: 1px 6px;
+  border-radius: 4px;
+}
+
+.stars {
+  display: flex;
+  gap: 1px;
+}
+
+.starActive {
+  color: var(--duo-crown);
+  font-size: 13px;
+}
+
+.starInactive {
+  color: var(--duo-border);
+  font-size: 13px;
+}
+
+.right {
+  margin-left: var(--duo-space);
+}
+
+.start {
+  display: inline-block;
+  padding: 6px 14px;
+  background: var(--duo-primary);
+  color: #fff;
+  font-size: var(--duo-font-sm);
+  font-weight: 600;
+  border-radius: var(--duo-radius-sm);
+}
+
+.retry {
+  display: inline-block;
+  padding: 6px 14px;
+  background: var(--duo-primary-light);
+  color: var(--duo-primary);
+  font-size: var(--duo-font-sm);
+  font-weight: 600;
+  border-radius: var(--duo-radius-sm);
+}

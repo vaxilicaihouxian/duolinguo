@@ -1,0 +1,1180 @@
+{
+  "level": {
+    "id": "a1",
+    "name": "A1 入门",
+    "description": "适合零基础，从问候、数字、颜色等基础内容开始",
+    "color": "#58cc02"
+  },
+  "units": [
+    {
+      "id": "a1-u1",
+      "title": "基础问候",
+      "description": "学习用英语打招呼和自我介绍",
+      "unlockRequirement": {
+        "type": "always_unlocked"
+      },
+      "lessons": [
+        {
+          "id": "a1-u1-l1",
+          "title": "你好！",
+          "description": "学习基本的问候语",
+          "questions": [
+            {
+              "id": "a1-u1-l1-q1",
+              "type": "choice",
+              "prompt": "\"Hello\" 的中文意思是什么？",
+              "correctAnswer": "你好",
+              "acceptableAnswers": [
+                "你好"
+              ],
+              "difficulty": 1,
+              "options": [
+                "你好",
+                "再见",
+                "谢谢",
+                "对不起"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "a1-u1-l1-q2",
+              "type": "fill-blank",
+              "prompt": "完成问候语：Good ___!（早上好）",
+              "correctAnswer": "morning",
+              "acceptableAnswers": [
+                "morning"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "a1-u1-l1-q3",
+              "type": "translation",
+              "prompt": "请翻译成英文：你好",
+              "correctAnswer": "Hello",
+              "acceptableAnswers": [
+                "hello",
+                "Hi",
+                "hi",
+                "Hey",
+                "hey"
+              ],
+              "direction": "zh-to-en",
+              "difficulty": 1
+            },
+            {
+              "id": "a1-u1-l1-q4",
+              "type": "choice",
+              "prompt": "Which one means \"再见\"?",
+              "correctAnswer": "Goodbye",
+              "acceptableAnswers": [
+                "Goodbye"
+              ],
+              "difficulty": 1,
+              "options": [
+                "Goodbye",
+                "Hello",
+                "Sorry",
+                "Please"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "a1-u1-l1-q5",
+              "type": "fill-blank",
+              "prompt": "完成句子：___ are you?（你好吗？）",
+              "correctAnswer": "How",
+              "acceptableAnswers": [
+                "how",
+                "How"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "a1-u1-l1-q6",
+              "type": "translation",
+              "prompt": "请翻译成中文：Good morning",
+              "correctAnswer": "早上好",
+              "acceptableAnswers": [
+                "早上好",
+                "早安"
+              ],
+              "direction": "en-to-zh",
+              "difficulty": 1
+            },
+            {
+              "id": "a1-u1-l1-q7",
+              "type": "choice",
+              "prompt": "有人对你说 \"Nice to meet you\"，你应该回答：",
+              "correctAnswer": "Nice to meet you too",
+              "acceptableAnswers": [
+                "Nice to meet you too"
+              ],
+              "difficulty": 1,
+              "options": [
+                "Nice to meet you too",
+                "Goodbye",
+                "I am fine",
+                "How are you"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "a1-u1-l1-q8",
+              "type": "fill-blank",
+              "prompt": "完成回答：I'm ___, thank you.（我很好，谢谢）",
+              "correctAnswer": "fine",
+              "acceptableAnswers": [
+                "fine",
+                "good",
+                "great"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "a1-u1-l1-q9",
+              "type": "listening",
+              "prompt": "听录音，写出你听到的英文句子（点击播放按钮）",
+              "correctAnswer": "Hello, how are you?",
+              "acceptableAnswers": [
+                "hello how are you",
+                "Hello how are you",
+                "hello, how are you"
+              ],
+              "difficulty": 1,
+              "audioText": "Hello, how are you?"
+            },
+            {
+              "id": "a1-u1-l1-q10",
+              "type": "speaking",
+              "prompt": "请朗读下面的句子",
+              "correctAnswer": "Nice to meet you",
+              "acceptableAnswers": [
+                "nice to meet you",
+                "Nice to meet you"
+              ],
+              "difficulty": 2,
+              "targetText": "Nice to meet you",
+              "scoringThreshold": 70
+            }
+          ]
+        },
+        {
+          "id": "a1-u1-l2",
+          "title": "自我介绍",
+          "description": "学习介绍自己的名字和来自哪里",
+          "questions": [
+            {
+              "id": "a1-u1-l2-q1",
+              "type": "choice",
+              "prompt": "\"My name is...\" 用来表达什么？",
+              "correctAnswer": "我的名字是...",
+              "acceptableAnswers": [
+                "我的名字是..."
+              ],
+              "difficulty": 1,
+              "options": [
+                "我的名字是...",
+                "我来自...",
+                "我喜欢...",
+                "我住在..."
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "a1-u1-l2-q2",
+              "type": "fill-blank",
+              "prompt": "完成句子：My ___ is Tom.（我的名字是 Tom）",
+              "correctAnswer": "name",
+              "acceptableAnswers": [
+                "name"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "a1-u1-l2-q3",
+              "type": "translation",
+              "prompt": "请翻译成英文：我叫 Tom",
+              "correctAnswer": "My name is Tom",
+              "acceptableAnswers": [
+                "my name is tom",
+                "I am Tom",
+                "I'm Tom",
+                "I am tom",
+                "i'm tom"
+              ],
+              "direction": "zh-to-en",
+              "difficulty": 2
+            },
+            {
+              "id": "a1-u1-l2-q4",
+              "type": "choice",
+              "prompt": "\"I am from China\" 是什么意思？",
+              "correctAnswer": "我来自中国",
+              "acceptableAnswers": [
+                "我来自中国"
+              ],
+              "difficulty": 1,
+              "options": [
+                "我来自中国",
+                "我喜欢中国",
+                "我去中国",
+                "我住在中国"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "a1-u1-l2-q5",
+              "type": "fill-blank",
+              "prompt": "完成句子：I am ___ China.（我来自中国）",
+              "correctAnswer": "from",
+              "acceptableAnswers": [
+                "from"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "a1-u1-l2-q6",
+              "type": "translation",
+              "prompt": "请翻译成中文：I am a student",
+              "correctAnswer": "我是一个学生",
+              "acceptableAnswers": [
+                "我是一个学生",
+                "我是学生",
+                "我是一名学生"
+              ],
+              "direction": "en-to-zh",
+              "difficulty": 2
+            },
+            {
+              "id": "a1-u1-l2-q7",
+              "type": "choice",
+              "prompt": "\"Nice to meet you\" 在什么时候说？",
+              "correctAnswer": "第一次见面时",
+              "acceptableAnswers": [
+                "第一次见面时"
+              ],
+              "difficulty": 1,
+              "options": [
+                "第一次见面时",
+                "告别时",
+                "道歉时",
+                "感谢时"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "a1-u1-l2-q8",
+              "type": "fill-blank",
+              "prompt": "完成句子：___ to meet you.（很高兴认识你）",
+              "correctAnswer": "Nice",
+              "acceptableAnswers": [
+                "nice",
+                "Nice",
+                "Glad",
+                "glad",
+                "Pleased",
+                "pleased"
+              ],
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "id": "a1-u1-l3",
+          "title": "认识他人",
+          "description": "学习询问他人名字和简单交流",
+          "questions": [
+            {
+              "id": "a1-u1-l3-q1",
+              "type": "choice",
+              "prompt": "问别人名字应该用：",
+              "correctAnswer": "What's your name?",
+              "acceptableAnswers": [
+                "What's your name?"
+              ],
+              "difficulty": 1,
+              "options": [
+                "What's your name?",
+                "How are you?",
+                "Where are you?",
+                "How old are you?"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "a1-u1-l3-q2",
+              "type": "translation",
+              "prompt": "请翻译成中文：What is your name?",
+              "correctAnswer": "你叫什么名字？",
+              "acceptableAnswers": [
+                "你叫什么名字",
+                "你的名字是什么",
+                "你叫什么"
+              ],
+              "direction": "en-to-zh",
+              "difficulty": 1
+            },
+            {
+              "id": "a1-u1-l3-q3",
+              "type": "fill-blank",
+              "prompt": "完成回答：___ name is Lily.（我的名字是 Lily）",
+              "correctAnswer": "My",
+              "acceptableAnswers": [
+                "my",
+                "My"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "a1-u1-l3-q4",
+              "type": "choice",
+              "prompt": "\"How are you?\" 的标准回答是：",
+              "correctAnswer": "I'm fine, thank you.",
+              "acceptableAnswers": [
+                "I'm fine, thank you."
+              ],
+              "difficulty": 1,
+              "options": [
+                "I'm fine, thank you.",
+                "I am Tom.",
+                "Good morning.",
+                "See you later."
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "a1-u1-l3-q5",
+              "type": "translation",
+              "prompt": "请翻译成英文：你从哪里来？",
+              "correctAnswer": "Where are you from?",
+              "acceptableAnswers": [
+                "where are you from",
+                "Where do you come from",
+                "where do you come from"
+              ],
+              "direction": "zh-to-en",
+              "difficulty": 2
+            },
+            {
+              "id": "a1-u1-l3-q6",
+              "type": "fill-blank",
+              "prompt": "完成句子：Where ___ you from?（你从哪里来）",
+              "correctAnswer": "are",
+              "acceptableAnswers": [
+                "are"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "a1-u1-l3-q7",
+              "type": "choice",
+              "prompt": "\"I am fine\" 的中文意思是：",
+              "correctAnswer": "我很好",
+              "acceptableAnswers": [
+                "我很好"
+              ],
+              "difficulty": 1,
+              "options": [
+                "我很好",
+                "我叫 Fine",
+                "我来自远方",
+                "我不好"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "a1-u1-l3-q8",
+              "type": "translation",
+              "prompt": "请翻译成中文：See you later",
+              "correctAnswer": "回头见",
+              "acceptableAnswers": [
+                "回头见",
+                "待会见",
+                "等会见",
+                "再见"
+              ],
+              "direction": "en-to-zh",
+              "difficulty": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-u2",
+      "title": "数字与颜色",
+      "description": "学习数字 1-20 和基本颜色",
+      "unlockRequirement": {
+        "type": "all_lessons_completed",
+        "unitId": "a1-u1"
+      },
+      "lessons": [
+        {
+          "id": "a1-u2-l1",
+          "title": "数字 1-10",
+          "description": "学习用英语说 1 到 10",
+          "questions": [
+            {
+              "id": "a1-u2-l1-q1",
+              "type": "choice",
+              "prompt": "\"One\" 是数字几？",
+              "correctAnswer": "1",
+              "acceptableAnswers": [
+                "1"
+              ],
+              "difficulty": 1,
+              "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "a1-u2-l1-q2",
+              "type": "fill-blank",
+              "prompt": "完成单词：T___（数字 2）",
+              "correctAnswer": "wo",
+              "acceptableAnswers": [
+                "wo",
+                "WO"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "a1-u2-l1-q3",
+              "type": "translation",
+              "prompt": "请翻译成英文：我有三个苹果",
+              "correctAnswer": "I have three apples",
+              "acceptableAnswers": [
+                "i have three apples",
+                "I have 3 apples",
+                "i have 3 apples"
+              ],
+              "direction": "zh-to-en",
+              "difficulty": 2
+            },
+            {
+              "id": "a1-u2-l1-q4",
+              "type": "choice",
+              "prompt": "\"Five\" 是数字几？",
+              "correctAnswer": "5",
+              "acceptableAnswers": [
+                "5"
+              ],
+              "difficulty": 1,
+              "options": [
+                "4",
+                "5",
+                "6",
+                "7"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "a1-u2-l1-q5",
+              "type": "fill-blank",
+              "prompt": "完成单词：S___（数字 6）",
+              "correctAnswer": "ix",
+              "acceptableAnswers": [
+                "ix",
+                "IX"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "a1-u2-l1-q6",
+              "type": "translation",
+              "prompt": "请翻译成中文：I am ten years old",
+              "correctAnswer": "我十岁了",
+              "acceptableAnswers": [
+                "我十岁了",
+                "我10岁了",
+                "我十岁"
+              ],
+              "direction": "en-to-zh",
+              "difficulty": 2
+            },
+            {
+              "id": "a1-u2-l1-q7",
+              "type": "choice",
+              "prompt": "How many is \"one + two\"?",
+              "correctAnswer": "Three",
+              "acceptableAnswers": [
+                "Three"
+              ],
+              "difficulty": 2,
+              "options": [
+                "Three",
+                "Four",
+                "Five",
+                "Two"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "a1-u2-l1-q8",
+              "type": "fill-blank",
+              "prompt": "完成句子：I have ___ books.（我有四本书）",
+              "correctAnswer": "four",
+              "acceptableAnswers": [
+                "four",
+                "4"
+              ],
+              "difficulty": 2
+            },
+            {
+              "id": "a1-u2-l1-q9",
+              "type": "listening",
+              "prompt": "听录音，写出你听到的英文数字（点击播放按钮）",
+              "correctAnswer": "one, two, three",
+              "acceptableAnswers": [
+                "one two three",
+                "one,two,three",
+                "1, 2, 3",
+                "1 2 3"
+              ],
+              "difficulty": 1,
+              "audioText": "One, two, three"
+            },
+            {
+              "id": "a1-u2-l1-q10",
+              "type": "speaking",
+              "prompt": "请朗读下面的句子",
+              "correctAnswer": "The sky is blue",
+              "acceptableAnswers": [
+                "the sky is blue",
+                "Sky is blue"
+              ],
+              "difficulty": 2,
+              "targetText": "The sky is blue",
+              "scoringThreshold": 70
+            }
+          ]
+        },
+        {
+          "id": "a1-u2-l2",
+          "title": "数字 11-20",
+          "description": "学习用英语说 11 到 20",
+          "questions": [
+            {
+              "id": "a1-u2-l2-q1",
+              "type": "choice",
+              "prompt": "\"Eleven\" 是数字几？",
+              "correctAnswer": "11",
+              "acceptableAnswers": [
+                "11"
+              ],
+              "difficulty": 1,
+              "options": [
+                "10",
+                "11",
+                "12",
+                "13"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "a1-u2-l2-q2",
+              "type": "fill-blank",
+              "prompt": "完成单词：Tw___（数字 12）",
+              "correctAnswer": "elve",
+              "acceptableAnswers": [
+                "elve"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "a1-u2-l2-q3",
+              "type": "choice",
+              "prompt": "\"Fifteen\" 是数字几？",
+              "correctAnswer": "15",
+              "acceptableAnswers": [
+                "15"
+              ],
+              "difficulty": 1,
+              "options": [
+                "14",
+                "15",
+                "16",
+                "17"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "a1-u2-l2-q4",
+              "type": "translation",
+              "prompt": "请翻译成英文：我有十五支笔",
+              "correctAnswer": "I have fifteen pens",
+              "acceptableAnswers": [
+                "i have fifteen pens",
+                "I have 15 pens",
+                "i have 15 pens"
+              ],
+              "direction": "zh-to-en",
+              "difficulty": 2
+            },
+            {
+              "id": "a1-u2-l2-q5",
+              "type": "fill-blank",
+              "prompt": "完成单词：___teen（数字 13）",
+              "correctAnswer": "Thir",
+              "acceptableAnswers": [
+                "thir",
+                "Thir"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "a1-u2-l2-q6",
+              "type": "choice",
+              "prompt": "\"Twenty\" 是数字几？",
+              "correctAnswer": "20",
+              "acceptableAnswers": [
+                "20"
+              ],
+              "difficulty": 1,
+              "options": [
+                "18",
+                "19",
+                "20",
+                "12"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "a1-u2-l2-q7",
+              "type": "translation",
+              "prompt": "请翻译成中文：She is eighteen years old",
+              "correctAnswer": "她十八岁了",
+              "acceptableAnswers": [
+                "她十八岁了",
+                "她18岁了",
+                "她十八岁"
+              ],
+              "direction": "en-to-zh",
+              "difficulty": 2
+            },
+            {
+              "id": "a1-u2-l2-q8",
+              "type": "fill-blank",
+              "prompt": "完成句子：Ten + seven = ___（17）",
+              "correctAnswer": "seventeen",
+              "acceptableAnswers": [
+                "seventeen",
+                "Seventeen",
+                "17"
+              ],
+              "difficulty": 2
+            }
+          ]
+        },
+        {
+          "id": "a1-u2-l3",
+          "title": "基本颜色",
+          "description": "学习用英语说常见颜色",
+          "questions": [
+            {
+              "id": "a1-u2-l3-q1",
+              "type": "choice",
+              "prompt": "\"Red\" 是什么颜色？",
+              "correctAnswer": "红色",
+              "acceptableAnswers": [
+                "红色"
+              ],
+              "difficulty": 1,
+              "options": [
+                "红色",
+                "蓝色",
+                "绿色",
+                "黄色"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "a1-u2-l3-q2",
+              "type": "fill-blank",
+              "prompt": "完成单词：B___（蓝色）",
+              "correctAnswer": "lue",
+              "acceptableAnswers": [
+                "lue"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "a1-u2-l3-q3",
+              "type": "translation",
+              "prompt": "请翻译成英文：天空是蓝色的",
+              "correctAnswer": "The sky is blue",
+              "acceptableAnswers": [
+                "the sky is blue",
+                "Sky is blue",
+                "sky is blue"
+              ],
+              "direction": "zh-to-en",
+              "difficulty": 2
+            },
+            {
+              "id": "a1-u2-l3-q4",
+              "type": "choice",
+              "prompt": "\"Green\" 是什么颜色？",
+              "correctAnswer": "绿色",
+              "acceptableAnswers": [
+                "绿色"
+              ],
+              "difficulty": 1,
+              "options": [
+                "红色",
+                "黄色",
+                "绿色",
+                "黑色"
+              ],
+              "correctIndex": 2
+            },
+            {
+              "id": "a1-u2-l3-q5",
+              "type": "fill-blank",
+              "prompt": "完成单词：Y___（黄色）",
+              "correctAnswer": "ellow",
+              "acceptableAnswers": [
+                "ellow"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "a1-u2-l3-q6",
+              "type": "translation",
+              "prompt": "请翻译成中文：I like the color blue",
+              "correctAnswer": "我喜欢蓝色",
+              "acceptableAnswers": [
+                "我喜欢蓝色",
+                "我喜欢蓝色这个颜色"
+              ],
+              "direction": "en-to-zh",
+              "difficulty": 2
+            },
+            {
+              "id": "a1-u2-l3-q7",
+              "type": "choice",
+              "prompt": "Which word means \"黑色\"?",
+              "correctAnswer": "Black",
+              "acceptableAnswers": [
+                "Black"
+              ],
+              "difficulty": 1,
+              "options": [
+                "White",
+                "Black",
+                "Brown",
+                "Gray"
+              ],
+              "correctIndex": 1
+            },
+            {
+              "id": "a1-u2-l3-q8",
+              "type": "fill-blank",
+              "prompt": "完成句子：The apple is ___.（苹果是红色的）",
+              "correctAnswer": "red",
+              "acceptableAnswers": [
+                "red",
+                "Red"
+              ],
+              "difficulty": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-u3",
+      "title": "食物与饮料",
+      "description": "学习常见食物、饮料和点餐表达",
+      "unlockRequirement": {
+        "type": "all_lessons_completed",
+        "unitId": "a1-u2"
+      },
+      "lessons": [
+        {
+          "id": "a1-u3-l1",
+          "title": "我喜欢苹果",
+          "description": "学习常见水果和食物的英文",
+          "questions": [
+            {
+              "id": "a1-u3-l1-q1",
+              "type": "choice",
+              "prompt": "\"Apple\" 是什么水果？",
+              "correctAnswer": "苹果",
+              "acceptableAnswers": [
+                "苹果"
+              ],
+              "difficulty": 1,
+              "options": [
+                "苹果",
+                "香蕉",
+                "橙子",
+                "葡萄"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "a1-u3-l1-q2",
+              "type": "fill-blank",
+              "prompt": "完成单词：Bana___（香蕉）",
+              "correctAnswer": "na",
+              "acceptableAnswers": [
+                "na",
+                "NA"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "a1-u3-l1-q3",
+              "type": "translation",
+              "prompt": "请翻译成英文：我喜欢苹果",
+              "correctAnswer": "I like apples",
+              "acceptableAnswers": [
+                "i like apples",
+                "I like apple",
+                "i like apple"
+              ],
+              "direction": "zh-to-en",
+              "difficulty": 1
+            },
+            {
+              "id": "a1-u3-l1-q4",
+              "type": "choice",
+              "prompt": "\"Water\" 是什么意思？",
+              "correctAnswer": "水",
+              "acceptableAnswers": [
+                "水"
+              ],
+              "difficulty": 1,
+              "options": [
+                "水",
+                "牛奶",
+                "果汁",
+                "茶"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "a1-u3-l1-q5",
+              "type": "fill-blank",
+              "prompt": "完成句子：I want some ___.（我想要一些水）",
+              "correctAnswer": "water",
+              "acceptableAnswers": [
+                "water",
+                "Water"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "a1-u3-l1-q6",
+              "type": "translation",
+              "prompt": "请翻译成中文：I am hungry",
+              "correctAnswer": "我饿了",
+              "acceptableAnswers": [
+                "我饿了",
+                "我很饿"
+              ],
+              "direction": "en-to-zh",
+              "difficulty": 1
+            },
+            {
+              "id": "a1-u3-l1-q7",
+              "type": "choice",
+              "prompt": "\"I like milk\" 中 milk 是什么？",
+              "correctAnswer": "牛奶",
+              "acceptableAnswers": [
+                "牛奶"
+              ],
+              "difficulty": 1,
+              "options": [
+                "牛奶",
+                "水",
+                "果汁",
+                "可乐"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "a1-u3-l1-q8",
+              "type": "fill-blank",
+              "prompt": "完成句子：Do you like ___?（你喜欢茶吗）",
+              "correctAnswer": "tea",
+              "acceptableAnswers": [
+                "tea",
+                "Tea"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "a1-u3-l1-q9",
+              "type": "listening",
+              "prompt": "听录音，写出你听到的英文句子（点击播放按钮）",
+              "correctAnswer": "I like coffee",
+              "acceptableAnswers": [
+                "i like coffee",
+                "I like coffee"
+              ],
+              "difficulty": 1,
+              "audioText": "I like coffee"
+            },
+            {
+              "id": "a1-u3-l1-q10",
+              "type": "speaking",
+              "prompt": "请朗读下面的句子",
+              "correctAnswer": "I want some water",
+              "acceptableAnswers": [
+                "i want some water",
+                "I want water"
+              ],
+              "difficulty": 2,
+              "targetText": "I want some water",
+              "scoringThreshold": 70
+            }
+          ]
+        },
+        {
+          "id": "a1-u3-l2",
+          "title": "我想点餐",
+          "description": "学习在餐厅点餐的基本表达",
+          "questions": [
+            {
+              "id": "a1-u3-l2-q1",
+              "type": "choice",
+              "prompt": "在餐厅想点餐，可以说：",
+              "correctAnswer": "I would like to order",
+              "acceptableAnswers": [
+                "I would like to order"
+              ],
+              "difficulty": 2,
+              "options": [
+                "I would like to order",
+                "I am hungry",
+                "Give me food",
+                "I want eat"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "a1-u3-l2-q2",
+              "type": "fill-blank",
+              "prompt": "完成句子：I'd like a ___ of water.（我想要一杯水）",
+              "correctAnswer": "glass",
+              "acceptableAnswers": [
+                "glass",
+                "cup"
+              ],
+              "difficulty": 2
+            },
+            {
+              "id": "a1-u3-l2-q3",
+              "type": "translation",
+              "prompt": "请翻译成英文：请给我菜单",
+              "correctAnswer": "The menu, please",
+              "acceptableAnswers": [
+                "the menu please",
+                "Menu please",
+                "menu, please",
+                "Can I have the menu please",
+                "can i have the menu please"
+              ],
+              "direction": "zh-to-en",
+              "difficulty": 2
+            },
+            {
+              "id": "a1-u3-l2-q4",
+              "type": "choice",
+              "prompt": "\"How much is it?\" 用于问什么？",
+              "correctAnswer": "价格",
+              "acceptableAnswers": [
+                "价格"
+              ],
+              "difficulty": 2,
+              "options": [
+                "价格",
+                "时间",
+                "地点",
+                "数量"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "a1-u3-l2-q5",
+              "type": "fill-blank",
+              "prompt": "完成单词：Chick___（鸡肉）",
+              "correctAnswer": "en",
+              "acceptableAnswers": [
+                "en"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "a1-u3-l2-q6",
+              "type": "translation",
+              "prompt": "请翻译成中文：I would like some rice",
+              "correctAnswer": "我想要一些米饭",
+              "acceptableAnswers": [
+                "我想要一些米饭",
+                "我想要米饭",
+                "我要一些米饭"
+              ],
+              "direction": "en-to-zh",
+              "difficulty": 2
+            },
+            {
+              "id": "a1-u3-l2-q7",
+              "type": "choice",
+              "prompt": "\"Delicious\" 是什么意思？",
+              "correctAnswer": "美味的",
+              "acceptableAnswers": [
+                "美味的"
+              ],
+              "difficulty": 2,
+              "options": [
+                "美味的",
+                "难吃的",
+                "甜的",
+                "酸的"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "a1-u3-l2-q8",
+              "type": "fill-blank",
+              "prompt": "完成句子：The food is very ___.（食物非常美味）",
+              "correctAnswer": "delicious",
+              "acceptableAnswers": [
+                "delicious",
+                "good",
+                "tasty",
+                "nice"
+              ],
+              "difficulty": 2
+            }
+          ]
+        },
+        {
+          "id": "a1-u3-l3",
+          "title": "一日三餐",
+          "description": "学习早中晚餐的表达",
+          "questions": [
+            {
+              "id": "a1-u3-l3-q1",
+              "type": "choice",
+              "prompt": "\"Breakfast\" 是哪一餐？",
+              "correctAnswer": "早餐",
+              "acceptableAnswers": [
+                "早餐"
+              ],
+              "difficulty": 1,
+              "options": [
+                "早餐",
+                "午餐",
+                "晚餐",
+                "下午茶"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "a1-u3-l3-q2",
+              "type": "fill-blank",
+              "prompt": "完成单词：L___（午餐）",
+              "correctAnswer": "unch",
+              "acceptableAnswers": [
+                "unch"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "a1-u3-l3-q3",
+              "type": "translation",
+              "prompt": "请翻译成英文：我吃早餐",
+              "correctAnswer": "I eat breakfast",
+              "acceptableAnswers": [
+                "i eat breakfast",
+                "I have breakfast",
+                "i have breakfast"
+              ],
+              "direction": "zh-to-en",
+              "difficulty": 1
+            },
+            {
+              "id": "a1-u3-l3-q4",
+              "type": "choice",
+              "prompt": "\"Dinner\" 通常指什么？",
+              "correctAnswer": "晚餐",
+              "acceptableAnswers": [
+                "晚餐"
+              ],
+              "difficulty": 1,
+              "options": [
+                "晚餐",
+                "早餐",
+                "午餐",
+                "小吃"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "a1-u3-l3-q5",
+              "type": "fill-blank",
+              "prompt": "完成句子：What do you want for ___?（你想吃什么当午餐）",
+              "correctAnswer": "lunch",
+              "acceptableAnswers": [
+                "lunch",
+                "Lunch"
+              ],
+              "difficulty": 2
+            },
+            {
+              "id": "a1-u3-l3-q6",
+              "type": "translation",
+              "prompt": "请翻译成中文：I usually have rice for dinner",
+              "correctAnswer": "我晚餐通常吃米饭",
+              "acceptableAnswers": [
+                "我晚餐通常吃米饭",
+                "我晚饭通常吃米饭",
+                "我通常晚饭吃米饭"
+              ],
+              "direction": "en-to-zh",
+              "difficulty": 2
+            },
+            {
+              "id": "a1-u3-l3-q7",
+              "type": "choice",
+              "prompt": "\"I am full\" 是什么意思？",
+              "correctAnswer": "我吃饱了",
+              "acceptableAnswers": [
+                "我吃饱了"
+              ],
+              "difficulty": 1,
+              "options": [
+                "我吃饱了",
+                "我很饿",
+                "我很渴",
+                "我很累"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "a1-u3-l3-q8",
+              "type": "fill-blank",
+              "prompt": "完成句子：I like ___ for breakfast.（我早餐喜欢鸡蛋）",
+              "correctAnswer": "eggs",
+              "acceptableAnswers": [
+                "eggs",
+                "egg",
+                "Eggs",
+                "Egg"
+              ],
+              "difficulty": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

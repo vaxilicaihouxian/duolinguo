@@ -1,0 +1,41 @@
+.page {
+  padding-bottom: var(--safe-area-bottom);
+}
+
+.title {
+  font-size: var(--duo-font-xl);
+  font-weight: 700;
+  padding: var(--duo-space-md) var(--duo-space-md) 0;
+  color: var(--duo-text-primary);
+}
+
+.tabs {
+  margin-top: var(--duo-space);
+}
+
+.tabLabel {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  font-size: var(--duo-font-sm);
+}
+
+.tabProgress {
+  font-size: var(--duo-font-xs);
+  color: var(--duo-primary);
+  font-weight: 600;
+}
+
+.emptyLevel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px var(--duo-space-xl);
+  color: var(--duo-text-secondary);
+}
+
+.emptyText {
+  margin-top: var(--duo-space-md);
+  font-size: var(--duo-font-base);
+}

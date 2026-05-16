@@ -1,0 +1,65 @@
+.node {
+  background: var(--duo-bg);
+  border-radius: var(--duo-radius-lg);
+  box-shadow: var(--duo-shadow-sm);
+  overflow: hidden;
+  transition: opacity 0.3s;
+}
+
+.locked {
+  opacity: 0.5;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--duo-space-md);
+  cursor: pointer;
+  user-select: none;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: var(--duo-space);
+}
+
+.icon {
+  font-size: 28px;
+}
+
+.title {
+  font-size: var(--duo-font-md);
+  font-weight: 600;
+  color: var(--duo-text-primary);
+  margin-bottom: 2px;
+}
+
+.subtitle {
+  font-size: var(--duo-font-sm);
+  color: var(--duo-text-secondary);
+}
+
+.completedTag {
+  color: var(--duo-primary);
+  font-weight: 600;
+}
+
+.lockedTag {
+  color: var(--duo-text-tertiary);
+}
+
+.arrow {
+  font-size: 12px;
+  color: var(--duo-text-tertiary);
+  transition: transform 0.2s;
+}
+
+.expanded {
+  transform: rotate(180deg);
+}
+
+.lessons {
+  padding: 0 var(--duo-space-md) var(--duo-space-md);
+}

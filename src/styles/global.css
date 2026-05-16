@@ -1,0 +1,132 @@
+:root {
+  /* 品牌色 */
+  --duo-primary: #58cc02;
+  --duo-primary-hover: #46a302;
+  --duo-primary-light: #e5f8d6;
+
+  /* 语义色 */
+  --duo-danger: #ff4b4b;
+  --duo-danger-light: #ffe5e5;
+  --duo-success: #58cc02;
+  --duo-warning: #ffc800;
+  --duo-warning-light: #fff9e5;
+
+  /* 中性色 */
+  --duo-text-primary: #1a1a1a;
+  --duo-text-secondary: #777777;
+  --duo-text-tertiary: #afafaf;
+  --duo-bg: #ffffff;
+  --duo-bg-secondary: #f7f7f7;
+  --duo-border: #e5e5e5;
+  --duo-divider: #f0f0f0;
+
+  /* 游戏化色 */
+  --duo-xp: #ff9600;
+  --duo-gem: #ce82ff;
+  --duo-heart: #ff4b4b;
+  --duo-heart-empty: #e5e5e5;
+  --duo-streak: #ff9600;
+  --duo-crown: #ffc800;
+
+  /* 尺寸 */
+  --duo-radius-sm: 8px;
+  --duo-radius: 12px;
+  --duo-radius-lg: 16px;
+  --duo-radius-xl: 20px;
+
+  /* 字号 */
+  --duo-font-xs: 11px;
+  --duo-font-sm: 13px;
+  --duo-font-base: 15px;
+  --duo-font-md: 17px;
+  --duo-font-lg: 20px;
+  --duo-font-xl: 24px;
+
+  /* 间距 */
+  --duo-space-xs: 4px;
+  --duo-space-sm: 8px;
+  --duo-space: 12px;
+  --duo-space-md: 16px;
+  --duo-space-lg: 20px;
+  --duo-space-xl: 24px;
+
+  /* 阴影 */
+  --duo-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+  --duo-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  --duo-shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.12);
+
+  /* 底部安全区 */
+  --safe-area-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+/* 全局基础 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    'Noto Sans', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-size: var(--duo-font-base);
+  line-height: 1.5;
+  color: var(--duo-text-primary);
+  background-color: var(--duo-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+  max-width: 428px;
+  margin: 0 auto;
+  position: relative;
+  background-color: var(--duo-bg);
+}
+
+/* 移动端 */
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 安全区适配 */
+.safe-bottom {
+  padding-bottom: var(--safe-area-bottom);
+}
+
+/* 滚动 */
+.scroll-container {
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}

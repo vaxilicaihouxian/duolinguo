@@ -1,0 +1,7 @@
+.page { padding: var(--duo-space-md); }
+.title { font-size: var(--duo-font-xl); font-weight: 700; margin-bottom: var(--duo-space-lg); }
+.records { display: flex; flex-direction: column; gap: var(--duo-space-sm); }
+.record { display: flex; align-items: center; padding: var(--duo-space-md); background: var(--duo-bg); border-radius: var(--duo-radius); box-shadow: var(--duo-shadow-sm); }
+.icon { font-size: 24px; margin-right: var(--duo-space); }
+.label { flex: 1; font-size: var(--duo-font-base); color: var(--duo-text-secondary); }
+.value { font-size: var(--duo-font-md); font-weight: 700; color: var(--duo-text-primary); }

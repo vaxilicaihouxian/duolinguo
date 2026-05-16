@@ -1,0 +1,11 @@
+.page { padding: var(--duo-space-md); }
+.title { font-size: var(--duo-font-xl); font-weight: 700; margin-bottom: var(--duo-space-sm); }
+.balance { font-size: var(--duo-font-base); color: var(--duo-text-secondary); margin-bottom: var(--duo-space-lg); }
+.items { display: flex; flex-direction: column; gap: var(--duo-space-sm); }
+.item { display: flex; align-items: center; padding: var(--duo-space-md); background: var(--duo-bg); border-radius: var(--duo-radius); box-shadow: var(--duo-shadow-sm); }
+.icon { font-size: 28px; margin-right: var(--duo-space); }
+.info { flex: 1; display: flex; flex-direction: column; }
+.name { font-size: var(--duo-font-md); font-weight: 600; }
+.desc { font-size: var(--duo-font-xs); color: var(--duo-text-tertiary); margin-top: 2px; }
+.buyBtn { padding: 6px 14px; background: var(--duo-primary); color: #fff; font-size: var(--duo-font-sm); font-weight: 600; border-radius: var(--duo-radius-sm); }
+.buyBtn:disabled { background: var(--duo-border); color: var(--duo-text-tertiary); }

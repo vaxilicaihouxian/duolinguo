@@ -1,0 +1,6 @@
+.tree {
+  padding: var(--duo-space) var(--duo-space-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--duo-space);
+}

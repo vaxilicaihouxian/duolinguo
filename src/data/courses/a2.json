@@ -1,0 +1,800 @@
+{
+  "level": {
+    "id": "a2",
+    "name": "A2 基础",
+    "description": "适合有一定基础，学习日常生活场景",
+    "color": "#1cb0f6"
+  },
+  "units": [
+    {
+      "id": "a2-u1",
+      "title": "时间与日期",
+      "description": "学习用英语表达时间、星期和日期",
+      "unlockRequirement": {
+        "type": "always_unlocked"
+      },
+      "lessons": [
+        {
+          "id": "a2-u1-l1",
+          "title": "现在几点了？",
+          "description": "学习时间的英文表达",
+          "questions": [
+            {
+              "id": "a2-u1-l1-q1",
+              "type": "choice",
+              "prompt": "问时间应该用：",
+              "correctAnswer": "What time is it?",
+              "acceptableAnswers": [
+                "What time is it?"
+              ],
+              "difficulty": 1,
+              "options": [
+                "What time is it?",
+                "What day is it?",
+                "What is the date?",
+                "How old is it?"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "a2-u1-l1-q2",
+              "type": "fill-blank",
+              "prompt": "完成句子：It's three ___.（现在是三点钟）",
+              "correctAnswer": "o'clock",
+              "acceptableAnswers": [
+                "oclock",
+                "o'clock",
+                "O'clock",
+                "pm",
+                "PM"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "a2-u1-l1-q3",
+              "type": "translation",
+              "prompt": "请翻译成英文：现在七点半",
+              "correctAnswer": "It's seven thirty",
+              "acceptableAnswers": [
+                "its seven thirty",
+                "it is seven thirty",
+                "It is half past seven",
+                "it is half past seven",
+                "It's half past seven"
+              ],
+              "direction": "zh-to-en",
+              "difficulty": 2
+            },
+            {
+              "id": "a2-u1-l1-q4",
+              "type": "choice",
+              "prompt": "\"Half past two\" 是几点？",
+              "correctAnswer": "2:30",
+              "acceptableAnswers": [
+                "2:30"
+              ],
+              "difficulty": 2,
+              "options": [
+                "2:30",
+                "2:00",
+                "3:30",
+                "2:15"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "a2-u1-l1-q5",
+              "type": "fill-blank",
+              "prompt": "完成句子：It's a quarter ___ five.（现在是 5:15）",
+              "correctAnswer": "past",
+              "acceptableAnswers": [
+                "past",
+                "after"
+              ],
+              "difficulty": 2
+            },
+            {
+              "id": "a2-u1-l1-q6",
+              "type": "translation",
+              "prompt": "请翻译成中文：The meeting is at 10 am",
+              "correctAnswer": "会议在上午十点",
+              "acceptableAnswers": [
+                "会议在上午十点",
+                "会议上午十点开始",
+                "上午十点开会"
+              ],
+              "direction": "en-to-zh",
+              "difficulty": 2
+            },
+            {
+              "id": "a2-u1-l1-q7",
+              "type": "choice",
+              "prompt": "\"Noon\" 是几点？",
+              "correctAnswer": "中午十二点",
+              "acceptableAnswers": [
+                "中午十二点"
+              ],
+              "difficulty": 1,
+              "options": [
+                "中午十二点",
+                "午夜十二点",
+                "上午六点",
+                "下午六点"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "a2-u1-l1-q8",
+              "type": "fill-blank",
+              "prompt": "完成句子：I get up at ___ in the morning.（我早上七点起床）",
+              "correctAnswer": "seven",
+              "acceptableAnswers": [
+                "seven",
+                "7",
+                "seven o'clock",
+                "7 o'clock"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "a2-u1-l1-q9",
+              "type": "listening",
+              "prompt": "听录音，写出你听到的时间（点击播放按钮）",
+              "correctAnswer": "half past two",
+              "acceptableAnswers": [
+                "half past 2",
+                "two thirty",
+                "2:30",
+                "2.30"
+              ],
+              "difficulty": 2,
+              "audioText": "Half past two"
+            },
+            {
+              "id": "a2-u1-l1-q10",
+              "type": "speaking",
+              "prompt": "请朗读下面的句子",
+              "correctAnswer": "It is seven thirty",
+              "acceptableAnswers": [
+                "its seven thirty",
+                "it is seven thirty",
+                "It is 7:30"
+              ],
+              "difficulty": 2,
+              "targetText": "It is seven thirty",
+              "scoringThreshold": 70
+            }
+          ]
+        },
+        {
+          "id": "a2-u1-l2",
+          "title": "今天星期几？",
+          "description": "学习星期和日期的表达",
+          "questions": [
+            {
+              "id": "a2-u1-l2-q1",
+              "type": "choice",
+              "prompt": "\"Monday\" 是星期几？",
+              "correctAnswer": "星期一",
+              "acceptableAnswers": [
+                "星期一"
+              ],
+              "difficulty": 1,
+              "options": [
+                "星期一",
+                "星期二",
+                "星期三",
+                "星期日"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "a2-u1-l2-q2",
+              "type": "fill-blank",
+              "prompt": "完成单词：Wed___（星期三）",
+              "correctAnswer": "nesday",
+              "acceptableAnswers": [
+                "nesday"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "a2-u1-l2-q3",
+              "type": "translation",
+              "prompt": "请翻译成英文：今天星期五",
+              "correctAnswer": "Today is Friday",
+              "acceptableAnswers": [
+                "today is friday",
+                "It is Friday today",
+                "it is friday today",
+                "Today is Fri"
+              ],
+              "direction": "zh-to-en",
+              "difficulty": 1
+            },
+            {
+              "id": "a2-u1-l2-q4",
+              "type": "choice",
+              "prompt": "\"Weekend\" 指哪几天？",
+              "correctAnswer": "星期六和星期日",
+              "acceptableAnswers": [
+                "星期六和星期日"
+              ],
+              "difficulty": 1,
+              "options": [
+                "星期六和星期日",
+                "星期一到星期五",
+                "星期五和星期六",
+                "星期日和星期一"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "a2-u1-l2-q5",
+              "type": "fill-blank",
+              "prompt": "完成单词：Th___（星期四）",
+              "correctAnswer": "ursday",
+              "acceptableAnswers": [
+                "ursday"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "a2-u1-l2-q6",
+              "type": "translation",
+              "prompt": "请翻译成中文：See you on Saturday",
+              "correctAnswer": "星期六见",
+              "acceptableAnswers": [
+                "星期六见",
+                "周六见"
+              ],
+              "direction": "en-to-zh",
+              "difficulty": 1
+            },
+            {
+              "id": "a2-u1-l2-q7",
+              "type": "choice",
+              "prompt": "哪个月是\"January\"？",
+              "correctAnswer": "一月",
+              "acceptableAnswers": [
+                "一月"
+              ],
+              "difficulty": 1,
+              "options": [
+                "一月",
+                "二月",
+                "三月",
+                "四月"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "a2-u1-l2-q8",
+              "type": "fill-blank",
+              "prompt": "完成句子：My birthday is in ___.（我的生日在八月）",
+              "correctAnswer": "August",
+              "acceptableAnswers": [
+                "august",
+                "Aug",
+                "aug"
+              ],
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "id": "a2-u1-l3",
+          "title": "我的日常",
+          "description": "学习描述日常活动的英语表达",
+          "questions": [
+            {
+              "id": "a2-u1-l3-q1",
+              "type": "choice",
+              "prompt": "\"I usually get up at 7\" 中 \"get up\" 是？",
+              "correctAnswer": "起床",
+              "acceptableAnswers": [
+                "起床"
+              ],
+              "difficulty": 1,
+              "options": [
+                "起床",
+                "睡觉",
+                "吃饭",
+                "工作"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "a2-u1-l3-q2",
+              "type": "fill-blank",
+              "prompt": "完成句子：I ___ to work at 8.（我八点去上班）",
+              "correctAnswer": "go",
+              "acceptableAnswers": [
+                "go"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "a2-u1-l3-q3",
+              "type": "translation",
+              "prompt": "请翻译成英文：我每天六点起床",
+              "correctAnswer": "I get up at six every day",
+              "acceptableAnswers": [
+                "i get up at six every day",
+                "I get up at 6 every day",
+                "i get up at 6 every day"
+              ],
+              "direction": "zh-to-en",
+              "difficulty": 2
+            },
+            {
+              "id": "a2-u1-l3-q4",
+              "type": "choice",
+              "prompt": "\"Have lunch\" 是什么意思？",
+              "correctAnswer": "吃午饭",
+              "acceptableAnswers": [
+                "吃午饭"
+              ],
+              "difficulty": 1,
+              "options": [
+                "吃午饭",
+                "吃早饭",
+                "吃晚饭",
+                "做饭"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "a2-u1-l3-q5",
+              "type": "fill-blank",
+              "prompt": "完成句子：I go to ___ at 10 pm.（我晚上十点睡觉）",
+              "correctAnswer": "bed",
+              "acceptableAnswers": [
+                "bed",
+                "sleep"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "a2-u1-l3-q6",
+              "type": "translation",
+              "prompt": "请翻译成中文：I usually watch TV in the evening",
+              "correctAnswer": "我晚上通常看电视",
+              "acceptableAnswers": [
+                "我晚上通常看电视",
+                "我通常晚上看电视"
+              ],
+              "direction": "en-to-zh",
+              "difficulty": 2
+            },
+            {
+              "id": "a2-u1-l3-q7",
+              "type": "choice",
+              "prompt": "\"After work\" 的意思是？",
+              "correctAnswer": "下班后",
+              "acceptableAnswers": [
+                "下班后"
+              ],
+              "difficulty": 1,
+              "options": [
+                "下班后",
+                "工作前",
+                "工作中",
+                "工作中途"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "a2-u1-l3-q8",
+              "type": "fill-blank",
+              "prompt": "完成句子：___ the morning, I drink coffee.（早上我喝咖啡）",
+              "correctAnswer": "In",
+              "acceptableAnswers": [
+                "in",
+                "In"
+              ],
+              "difficulty": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2-u2",
+      "title": "购物与出行",
+      "description": "学习购物、交通和日常出行表达",
+      "unlockRequirement": {
+        "type": "all_lessons_completed",
+        "unitId": "a2-u1"
+      },
+      "lessons": [
+        {
+          "id": "a2-u2-l1",
+          "title": "去购物",
+          "description": "学习购物场景的英语表达",
+          "questions": [
+            {
+              "id": "a2-u2-l1-q1",
+              "type": "choice",
+              "prompt": "\"How much is this?\" 用于问什么？",
+              "correctAnswer": "价格",
+              "acceptableAnswers": [
+                "价格"
+              ],
+              "difficulty": 1,
+              "options": [
+                "价格",
+                "时间",
+                "尺寸",
+                "颜色"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "a2-u2-l1-q2",
+              "type": "fill-blank",
+              "prompt": "完成句子：This is too ___.（这个太贵了）",
+              "correctAnswer": "expensive",
+              "acceptableAnswers": [
+                "expensive",
+                "much",
+                "pricey"
+              ],
+              "difficulty": 2
+            },
+            {
+              "id": "a2-u2-l1-q3",
+              "type": "translation",
+              "prompt": "请翻译成英文：我可以试穿吗？",
+              "correctAnswer": "Can I try this on?",
+              "acceptableAnswers": [
+                "can i try this on",
+                "May I try this on",
+                "may i try this on",
+                "Can I try it on",
+                "can i try it on"
+              ],
+              "direction": "zh-to-en",
+              "difficulty": 2
+            },
+            {
+              "id": "a2-u2-l1-q4",
+              "type": "choice",
+              "prompt": "试衣间用英语怎么说？",
+              "correctAnswer": "Fitting room",
+              "acceptableAnswers": [
+                "Fitting room"
+              ],
+              "difficulty": 2,
+              "options": [
+                "Fitting room",
+                "Changing house",
+                "Try room",
+                "Test room"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "a2-u2-l1-q5",
+              "type": "fill-blank",
+              "prompt": "完成句子：I'll ___ it.（我买了）",
+              "correctAnswer": "take",
+              "acceptableAnswers": [
+                "take",
+                "buy",
+                "get"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "a2-u2-l1-q6",
+              "type": "translation",
+              "prompt": "请翻译成中文：Do you have a smaller size?",
+              "correctAnswer": "有小一号的吗？",
+              "acceptableAnswers": [
+                "有小一号的吗",
+                "有没有小一点的尺码",
+                "有更小的尺码吗"
+              ],
+              "direction": "en-to-zh",
+              "difficulty": 2
+            },
+            {
+              "id": "a2-u2-l1-q7",
+              "type": "choice",
+              "prompt": "\"Size\" 是什么意思？",
+              "correctAnswer": "尺码",
+              "acceptableAnswers": [
+                "尺码"
+              ],
+              "difficulty": 1,
+              "options": [
+                "尺码",
+                "颜色",
+                "价格",
+                "数量"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "a2-u2-l1-q8",
+              "type": "fill-blank",
+              "prompt": "完成句子：I am just ___, thank you.（我只是看看，谢谢）",
+              "correctAnswer": "looking",
+              "acceptableAnswers": [
+                "looking",
+                "browsing"
+              ],
+              "difficulty": 2
+            },
+            {
+              "id": "a2-u2-l1-q9",
+              "type": "listening",
+              "prompt": "听录音，写出你听到的英文句子（点击播放按钮）",
+              "correctAnswer": "How much is this?",
+              "acceptableAnswers": [
+                "how much is this",
+                "How much is this"
+              ],
+              "difficulty": 2,
+              "audioText": "How much is this?"
+            },
+            {
+              "id": "a2-u2-l1-q10",
+              "type": "speaking",
+              "prompt": "请朗读下面的句子",
+              "correctAnswer": "Can I try this on?",
+              "acceptableAnswers": [
+                "can i try this on",
+                "Can I try it on"
+              ],
+              "difficulty": 2,
+              "targetText": "Can I try this on?",
+              "scoringThreshold": 60
+            }
+          ]
+        },
+        {
+          "id": "a2-u2-l2",
+          "title": "出行交通",
+          "description": "学习问路和交通工具的表达",
+          "questions": [
+            {
+              "id": "a2-u2-l2-q1",
+              "type": "choice",
+              "prompt": "问路时应该先说：",
+              "correctAnswer": "Excuse me",
+              "acceptableAnswers": [
+                "Excuse me"
+              ],
+              "difficulty": 1,
+              "options": [
+                "Excuse me",
+                "Sorry",
+                "Thank you",
+                "Hello"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "a2-u2-l2-q2",
+              "type": "fill-blank",
+              "prompt": "完成句子：Go ___ ahead.（直走）",
+              "correctAnswer": "straight",
+              "acceptableAnswers": [
+                "straight",
+                "Straight"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "a2-u2-l2-q3",
+              "type": "translation",
+              "prompt": "请翻译成英文：请问地铁站在哪里？",
+              "correctAnswer": "Where is the subway station?",
+              "acceptableAnswers": [
+                "where is the subway station",
+                "Where is the metro station",
+                "where is the metro station",
+                "Where is the subway",
+                "where is the subway"
+              ],
+              "direction": "zh-to-en",
+              "difficulty": 2
+            },
+            {
+              "id": "a2-u2-l2-q4",
+              "type": "choice",
+              "prompt": "\"Turn left\" 是什么意思？",
+              "correctAnswer": "左转",
+              "acceptableAnswers": [
+                "左转"
+              ],
+              "difficulty": 1,
+              "options": [
+                "左转",
+                "右转",
+                "直走",
+                "回头"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "a2-u2-l2-q5",
+              "type": "fill-blank",
+              "prompt": "完成句子：The bus ___ is over there.（公交站在那边）",
+              "correctAnswer": "stop",
+              "acceptableAnswers": [
+                "stop",
+                "station"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "a2-u2-l2-q6",
+              "type": "translation",
+              "prompt": "请翻译成中文：It's about five minutes on foot",
+              "correctAnswer": "步行大约五分钟",
+              "acceptableAnswers": [
+                "步行大约五分钟",
+                "走路大概五分钟",
+                "步行约五分钟"
+              ],
+              "direction": "en-to-zh",
+              "difficulty": 2
+            },
+            {
+              "id": "a2-u2-l2-q7",
+              "type": "choice",
+              "prompt": "\"Traffic light\" 是什么？",
+              "correctAnswer": "红绿灯",
+              "acceptableAnswers": [
+                "红绿灯"
+              ],
+              "difficulty": 1,
+              "options": [
+                "红绿灯",
+                "路灯",
+                "车灯",
+                "头灯"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "a2-u2-l2-q8",
+              "type": "fill-blank",
+              "prompt": "完成句子：Turn right at the ___.（在第二个路口右转）",
+              "correctAnswer": "corner",
+              "acceptableAnswers": [
+                "corner",
+                "intersection",
+                "crossing"
+              ],
+              "difficulty": 2
+            }
+          ]
+        },
+        {
+          "id": "a2-u2-l3",
+          "title": "天气怎么样？",
+          "description": "学习天气和季节的表达",
+          "questions": [
+            {
+              "id": "a2-u2-l3-q1",
+              "type": "choice",
+              "prompt": "问天气应该用：",
+              "correctAnswer": "How is the weather?",
+              "acceptableAnswers": [
+                "How is the weather?"
+              ],
+              "difficulty": 1,
+              "options": [
+                "How is the weather?",
+                "What is weather?",
+                "Where is weather?",
+                "When is weather?"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "a2-u2-l3-q2",
+              "type": "fill-blank",
+              "prompt": "完成句子：It's ___ today.（今天天气晴朗）",
+              "correctAnswer": "sunny",
+              "acceptableAnswers": [
+                "sunny",
+                "fine",
+                "nice",
+                "clear"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "a2-u2-l3-q3",
+              "type": "translation",
+              "prompt": "请翻译成英文：今天下雨了",
+              "correctAnswer": "It's raining today",
+              "acceptableAnswers": [
+                "its raining today",
+                "It is raining today",
+                "it is raining today",
+                "It rains today",
+                "it rains today"
+              ],
+              "direction": "zh-to-en",
+              "difficulty": 1
+            },
+            {
+              "id": "a2-u2-l3-q4",
+              "type": "choice",
+              "prompt": "\"Cloudy\" 是什么意思？",
+              "correctAnswer": "多云的",
+              "acceptableAnswers": [
+                "多云的"
+              ],
+              "difficulty": 1,
+              "options": [
+                "多云的",
+                "下雨的",
+                "下雪的",
+                "晴朗的"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "a2-u2-l3-q5",
+              "type": "fill-blank",
+              "prompt": "完成句子：I like ___.（我喜欢夏天）",
+              "correctAnswer": "summer",
+              "acceptableAnswers": [
+                "summer",
+                "Summer"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "a2-u2-l3-q6",
+              "type": "translation",
+              "prompt": "请翻译成中文：It's very cold in winter",
+              "correctAnswer": "冬天非常冷",
+              "acceptableAnswers": [
+                "冬天非常冷",
+                "冬天很冷"
+              ],
+              "direction": "en-to-zh",
+              "difficulty": 1
+            },
+            {
+              "id": "a2-u2-l3-q7",
+              "type": "choice",
+              "prompt": "哪个季节是\"Spring\"？",
+              "correctAnswer": "春天",
+              "acceptableAnswers": [
+                "春天"
+              ],
+              "difficulty": 1,
+              "options": [
+                "春天",
+                "夏天",
+                "秋天",
+                "冬天"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "a2-u2-l3-q8",
+              "type": "fill-blank",
+              "prompt": "完成句子：Take an ___ with you.（带把伞）",
+              "correctAnswer": "umbrella",
+              "acceptableAnswers": [
+                "umbrella",
+                "Umbrella"
+              ],
+              "difficulty": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

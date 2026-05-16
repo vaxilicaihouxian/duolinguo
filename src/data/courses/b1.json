@@ -1,0 +1,802 @@
+{
+  "level": {
+    "id": "b1",
+    "name": "B1 中级",
+    "description": "适合能进行日常对话，提升表达流利度",
+    "color": "#ce82ff"
+  },
+  "units": [
+    {
+      "id": "b1-u1",
+      "title": "旅行与住宿",
+      "description": "学习旅行、酒店入住和出行用语",
+      "unlockRequirement": {
+        "type": "always_unlocked"
+      },
+      "lessons": [
+        {
+          "id": "b1-u1-l1",
+          "title": "在机场",
+          "description": "学习机场和登机的英语表达",
+          "questions": [
+            {
+              "id": "b1-u1-l1-q1",
+              "type": "choice",
+              "prompt": "\"Passport\" 是什么意思？",
+              "correctAnswer": "护照",
+              "acceptableAnswers": [
+                "护照"
+              ],
+              "difficulty": 1,
+              "options": [
+                "护照",
+                "机票",
+                "签证",
+                "行李"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "b1-u1-l1-q2",
+              "type": "fill-blank",
+              "prompt": "完成句子：Where is the ___ counter?（值机柜台在哪里）",
+              "correctAnswer": "check-in",
+              "acceptableAnswers": [
+                "checkin",
+                "check in",
+                "check-in"
+              ],
+              "difficulty": 2
+            },
+            {
+              "id": "b1-u1-l1-q3",
+              "type": "translation",
+              "prompt": "请翻译成英文：我的航班延误了",
+              "correctAnswer": "My flight is delayed",
+              "acceptableAnswers": [
+                "my flight is delayed",
+                "My flight was delayed",
+                "my flight was delayed"
+              ],
+              "direction": "zh-to-en",
+              "difficulty": 2
+            },
+            {
+              "id": "b1-u1-l1-q4",
+              "type": "choice",
+              "prompt": "\"Gate\" 在机场指什么？",
+              "correctAnswer": "登机口",
+              "acceptableAnswers": [
+                "登机口"
+              ],
+              "difficulty": 2,
+              "options": [
+                "登机口",
+                "安检",
+                "行李提取",
+                "售票处"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "b1-u1-l1-q5",
+              "type": "fill-blank",
+              "prompt": "完成句子：I would like a ___ seat, please.（我想要靠窗座位）",
+              "correctAnswer": "window",
+              "acceptableAnswers": [
+                "window",
+                "Window"
+              ],
+              "difficulty": 2
+            },
+            {
+              "id": "b1-u1-l1-q6",
+              "type": "translation",
+              "prompt": "请翻译成中文：Please show me your boarding pass",
+              "correctAnswer": "请出示你的登机牌",
+              "acceptableAnswers": [
+                "请出示你的登机牌",
+                "请出示您的登机牌",
+                "请给我看你的登机牌"
+              ],
+              "direction": "en-to-zh",
+              "difficulty": 2
+            },
+            {
+              "id": "b1-u1-l1-q7",
+              "type": "choice",
+              "prompt": "\"Luggage\" 是什么？",
+              "correctAnswer": "行李",
+              "acceptableAnswers": [
+                "行李"
+              ],
+              "difficulty": 1,
+              "options": [
+                "行李",
+                "护照",
+                "机票",
+                "登机口"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "b1-u1-l1-q8",
+              "type": "fill-blank",
+              "prompt": "完成句子：The ___ will take about 2 hours.（飞行大约需要两小时）",
+              "correctAnswer": "flight",
+              "acceptableAnswers": [
+                "flight",
+                "trip",
+                "journey"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "b1-u1-l1-q9",
+              "type": "listening",
+              "prompt": "听录音，写出你听到的英文句子（点击播放按钮）",
+              "correctAnswer": "Where is the check-in counter?",
+              "acceptableAnswers": [
+                "where is the check in counter",
+                "Where is the checkin counter",
+                "Where is check-in counter"
+              ],
+              "difficulty": 2,
+              "audioText": "Where is the check-in counter?"
+            },
+            {
+              "id": "b1-u1-l1-q10",
+              "type": "speaking",
+              "prompt": "请朗读下面的句子",
+              "correctAnswer": "My flight is delayed",
+              "acceptableAnswers": [
+                "my flight is delayed",
+                "My flight was delayed"
+              ],
+              "difficulty": 2,
+              "targetText": "My flight is delayed",
+              "scoringThreshold": 70
+            }
+          ]
+        },
+        {
+          "id": "b1-u1-l2",
+          "title": "入住酒店",
+          "description": "学习酒店预订和入住的表达",
+          "questions": [
+            {
+              "id": "b1-u1-l2-q1",
+              "type": "choice",
+              "prompt": "想在酒店预订房间，可以说：",
+              "correctAnswer": "I'd like to book a room",
+              "acceptableAnswers": [
+                "I'd like to book a room"
+              ],
+              "difficulty": 2,
+              "options": [
+                "I'd like to book a room",
+                "I want a house",
+                "Give me a bed",
+                "I need sleep"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "b1-u1-l2-q2",
+              "type": "fill-blank",
+              "prompt": "完成句子：Do you have a ___ room?（还有空房间吗）",
+              "correctAnswer": "vacant",
+              "acceptableAnswers": [
+                "vacant",
+                "free",
+                "available",
+                "empty"
+              ],
+              "difficulty": 2
+            },
+            {
+              "id": "b1-u1-l2-q3",
+              "type": "translation",
+              "prompt": "请翻译成英文：我预订了一个房间",
+              "correctAnswer": "I have a reservation",
+              "acceptableAnswers": [
+                "i have a reservation",
+                "I have booked a room",
+                "i have booked a room",
+                "I booked a room",
+                "i booked a room"
+              ],
+              "direction": "zh-to-en",
+              "difficulty": 2
+            },
+            {
+              "id": "b1-u1-l2-q4",
+              "type": "choice",
+              "prompt": "\"Single room\" 是什么？",
+              "correctAnswer": "单人间",
+              "acceptableAnswers": [
+                "单人间"
+              ],
+              "difficulty": 1,
+              "options": [
+                "单人间",
+                "双人间",
+                "套房",
+                "三人间"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "b1-u1-l2-q5",
+              "type": "fill-blank",
+              "prompt": "完成句子：What time is ___?（几点退房）",
+              "correctAnswer": "check-out",
+              "acceptableAnswers": [
+                "checkout",
+                "check out",
+                "check-out",
+                "Check-out",
+                "Checkout"
+              ],
+              "difficulty": 2
+            },
+            {
+              "id": "b1-u1-l2-q6",
+              "type": "translation",
+              "prompt": "请翻译成中文：Is breakfast included?",
+              "correctAnswer": "含早餐吗？",
+              "acceptableAnswers": [
+                "含早餐吗",
+                "包括早餐吗",
+                "有包含早餐吗"
+              ],
+              "direction": "en-to-zh",
+              "difficulty": 2
+            },
+            {
+              "id": "b1-u1-l2-q7",
+              "type": "choice",
+              "prompt": "\"Key card\" 在酒店指什么？",
+              "correctAnswer": "房卡",
+              "acceptableAnswers": [
+                "房卡"
+              ],
+              "difficulty": 1,
+              "options": [
+                "房卡",
+                "钥匙链",
+                "信用卡",
+                "会员卡"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "b1-u1-l2-q8",
+              "type": "fill-blank",
+              "prompt": "完成句子：I would like to ___ my stay.（我想延长入住）",
+              "correctAnswer": "extend",
+              "acceptableAnswers": [
+                "extend",
+                "Extend",
+                "prolong"
+              ],
+              "difficulty": 3
+            }
+          ]
+        },
+        {
+          "id": "b1-u1-l3",
+          "title": "问路指路",
+          "description": "学习在陌生城市问路和看懂指示牌",
+          "questions": [
+            {
+              "id": "b1-u1-l3-q1",
+              "type": "choice",
+              "prompt": "\"Could you tell me how to get to...?\" 用来做什么？",
+              "correctAnswer": "问路",
+              "acceptableAnswers": [
+                "问路"
+              ],
+              "difficulty": 1,
+              "options": [
+                "问路",
+                "问时间",
+                "打招呼",
+                "道别"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "b1-u1-l3-q2",
+              "type": "fill-blank",
+              "prompt": "完成句子：Go straight ___ the park.（穿过公园直走）",
+              "correctAnswer": "through",
+              "acceptableAnswers": [
+                "through",
+                "across"
+              ],
+              "difficulty": 2
+            },
+            {
+              "id": "b1-u1-l3-q3",
+              "type": "translation",
+              "prompt": "请翻译成英文：从这里到火车站远吗？",
+              "correctAnswer": "Is it far from here to the train station?",
+              "acceptableAnswers": [
+                "is it far from here to the train station",
+                "Is the train station far from here",
+                "is the train station far from here"
+              ],
+              "direction": "zh-to-en",
+              "difficulty": 3
+            },
+            {
+              "id": "b1-u1-l3-q4",
+              "type": "choice",
+              "prompt": "\"It's on your left\" 的意思是？",
+              "correctAnswer": "它在你左边",
+              "acceptableAnswers": [
+                "它在你左边"
+              ],
+              "difficulty": 1,
+              "options": [
+                "它在你左边",
+                "它在你右边",
+                "它在前面",
+                "它在后面"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "b1-u1-l3-q5",
+              "type": "fill-blank",
+              "prompt": "完成句子：You can't ___ it.（你不会错过的）",
+              "correctAnswer": "miss",
+              "acceptableAnswers": [
+                "miss"
+              ],
+              "difficulty": 2
+            },
+            {
+              "id": "b1-u1-l3-q6",
+              "type": "translation",
+              "prompt": "请翻译成中文：Take the second turning on the right",
+              "correctAnswer": "在第二个路口右转",
+              "acceptableAnswers": [
+                "在第二个路口右转",
+                "第二个转弯处右转",
+                "在第二个拐弯处向右转"
+              ],
+              "direction": "en-to-zh",
+              "difficulty": 2
+            },
+            {
+              "id": "b1-u1-l3-q7",
+              "type": "choice",
+              "prompt": "\"It's within walking distance\" 什么意思？",
+              "correctAnswer": "走路就能到",
+              "acceptableAnswers": [
+                "走路就能到"
+              ],
+              "difficulty": 2,
+              "options": [
+                "走路就能到",
+                "需要坐车",
+                "很远",
+                "不确定"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "b1-u1-l3-q8",
+              "type": "fill-blank",
+              "prompt": "完成句子：The museum is ___ the bank.（博物馆在银行对面）",
+              "correctAnswer": "opposite",
+              "acceptableAnswers": [
+                "opposite",
+                "across from",
+                "across"
+              ],
+              "difficulty": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-u2",
+      "title": "健康与就医",
+      "description": "学习描述身体状况和就医用语",
+      "unlockRequirement": {
+        "type": "all_lessons_completed",
+        "unitId": "b1-u1"
+      },
+      "lessons": [
+        {
+          "id": "b1-u2-l1",
+          "title": "我感冒了",
+          "description": "学习描述常见病症",
+          "questions": [
+            {
+              "id": "b1-u2-l1-q1",
+              "type": "choice",
+              "prompt": "\"I have a cold\" 是什么意思？",
+              "correctAnswer": "我感冒了",
+              "acceptableAnswers": [
+                "我感冒了"
+              ],
+              "difficulty": 1,
+              "options": [
+                "我感冒了",
+                "我很冷",
+                "我发烧了",
+                "我咳嗽"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "b1-u2-l1-q2",
+              "type": "fill-blank",
+              "prompt": "完成句子：I have a ___.（我头疼）",
+              "correctAnswer": "headache",
+              "acceptableAnswers": [
+                "headache"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "b1-u2-l1-q3",
+              "type": "translation",
+              "prompt": "请翻译成英文：我感觉不舒服",
+              "correctAnswer": "I don't feel well",
+              "acceptableAnswers": [
+                "i dont feel well",
+                "I don't feel good",
+                "i dont feel good",
+                "I am not feeling well",
+                "i am not feeling well"
+              ],
+              "direction": "zh-to-en",
+              "difficulty": 2
+            },
+            {
+              "id": "b1-u2-l1-q4",
+              "type": "choice",
+              "prompt": "\"Fever\" 是什么症状？",
+              "correctAnswer": "发烧",
+              "acceptableAnswers": [
+                "发烧"
+              ],
+              "difficulty": 1,
+              "options": [
+                "发烧",
+                "咳嗽",
+                "头疼",
+                "胃疼"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "b1-u2-l1-q5",
+              "type": "fill-blank",
+              "prompt": "完成句子：You should see a ___.（你应该去看医生）",
+              "correctAnswer": "doctor",
+              "acceptableAnswers": [
+                "doctor"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "b1-u2-l1-q6",
+              "type": "translation",
+              "prompt": "请翻译成中文：Take this medicine three times a day",
+              "correctAnswer": "这个药每天吃三次",
+              "acceptableAnswers": [
+                "这个药每天吃三次",
+                "这药一天吃三次",
+                "一天吃三次这个药"
+              ],
+              "direction": "en-to-zh",
+              "difficulty": 2
+            },
+            {
+              "id": "b1-u2-l1-q7",
+              "type": "choice",
+              "prompt": "\"Cough\" 是什么意思？",
+              "correctAnswer": "咳嗽",
+              "acceptableAnswers": [
+                "咳嗽"
+              ],
+              "difficulty": 1,
+              "options": [
+                "咳嗽",
+                "发烧",
+                "流鼻涕",
+                "打喷嚏"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "b1-u2-l1-q8",
+              "type": "fill-blank",
+              "prompt": "完成句子：I need to make an ___.（我需要预约）",
+              "correctAnswer": "appointment",
+              "acceptableAnswers": [
+                "appointment"
+              ],
+              "difficulty": 2
+            },
+            {
+              "id": "b1-u2-l1-q9",
+              "type": "listening",
+              "prompt": "听录音，写出你听到的英文句子（点击播放按钮）",
+              "correctAnswer": "I have a headache",
+              "acceptableAnswers": [
+                "i have a headache",
+                "I have headache"
+              ],
+              "difficulty": 2,
+              "audioText": "I have a headache"
+            },
+            {
+              "id": "b1-u2-l1-q10",
+              "type": "speaking",
+              "prompt": "请朗读下面的句子",
+              "correctAnswer": "I do not feel well",
+              "acceptableAnswers": [
+                "i dont feel well",
+                "i do not feel well",
+                "I am not feeling well"
+              ],
+              "difficulty": 2,
+              "targetText": "I do not feel well",
+              "scoringThreshold": 70
+            }
+          ]
+        },
+        {
+          "id": "b1-u2-l2",
+          "title": "保持健康",
+          "description": "学习运动和健康生活方式的表达",
+          "questions": [
+            {
+              "id": "b1-u2-l2-q1",
+              "type": "choice",
+              "prompt": "\"Exercise\" 的意思是？",
+              "correctAnswer": "锻炼",
+              "acceptableAnswers": [
+                "锻炼"
+              ],
+              "difficulty": 1,
+              "options": [
+                "锻炼",
+                "兴奋",
+                "出口",
+                "检查"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "b1-u2-l2-q2",
+              "type": "fill-blank",
+              "prompt": "完成句子：I like to go ___.（我喜欢跑步）",
+              "correctAnswer": "running",
+              "acceptableAnswers": [
+                "running",
+                "jogging"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "b1-u2-l2-q3",
+              "type": "translation",
+              "prompt": "请翻译成英文：你应该多喝水",
+              "correctAnswer": "You should drink more water",
+              "acceptableAnswers": [
+                "you should drink more water",
+                "You should drink water more",
+                "you should drink water more"
+              ],
+              "direction": "zh-to-en",
+              "difficulty": 2
+            },
+            {
+              "id": "b1-u2-l2-q4",
+              "type": "choice",
+              "prompt": "\"Healthy diet\" 是什么？",
+              "correctAnswer": "健康饮食",
+              "acceptableAnswers": [
+                "健康饮食"
+              ],
+              "difficulty": 1,
+              "options": [
+                "健康饮食",
+                "减肥",
+                "快餐",
+                "素食"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "b1-u2-l2-q5",
+              "type": "fill-blank",
+              "prompt": "完成句子：I go to the ___ twice a week.（我每周去两次健身房）",
+              "correctAnswer": "gym",
+              "acceptableAnswers": [
+                "gym",
+                "Gym",
+                "gymnasium"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "b1-u2-l2-q6",
+              "type": "translation",
+              "prompt": "请翻译成中文：Getting enough sleep is important",
+              "correctAnswer": "充足的睡眠很重要",
+              "acceptableAnswers": [
+                "充足的睡眠很重要",
+                "足够睡眠很重要",
+                "睡够很重要"
+              ],
+              "direction": "en-to-zh",
+              "difficulty": 2
+            },
+            {
+              "id": "b1-u2-l2-q7",
+              "type": "choice",
+              "prompt": "\"Yoga\" 属于什么？",
+              "correctAnswer": "身心锻炼",
+              "acceptableAnswers": [
+                "身心锻炼"
+              ],
+              "difficulty": 2,
+              "options": [
+                "身心锻炼",
+                "球类运动",
+                "跑步",
+                "游泳"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "b1-u2-l2-q8",
+              "type": "fill-blank",
+              "prompt": "完成句子：Eating ___ and vegetables is good for you.（多吃水果蔬菜对你有益）",
+              "correctAnswer": "fruits",
+              "acceptableAnswers": [
+                "fruits",
+                "fruit",
+                "Fruits",
+                "Fruit"
+              ],
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "id": "b1-u2-l3",
+          "title": "描述感受",
+          "description": "学习表达情绪和感受",
+          "questions": [
+            {
+              "id": "b1-u2-l3-q1",
+              "type": "choice",
+              "prompt": "\"I feel nervous\" 表示什么？",
+              "correctAnswer": "我感到紧张",
+              "acceptableAnswers": [
+                "我感到紧张"
+              ],
+              "difficulty": 1,
+              "options": [
+                "我感到紧张",
+                "我感到开心",
+                "我感到疲惫",
+                "我感到生气"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "b1-u2-l3-q2",
+              "type": "fill-blank",
+              "prompt": "完成句子：I am ___ about the exam.（我对考试感到焦虑）",
+              "correctAnswer": "anxious",
+              "acceptableAnswers": [
+                "anxious",
+                "worried",
+                "nervous"
+              ],
+              "difficulty": 2
+            },
+            {
+              "id": "b1-u2-l3-q3",
+              "type": "translation",
+              "prompt": "请翻译成英文：我今天心情很好",
+              "correctAnswer": "I'm in a good mood today",
+              "acceptableAnswers": [
+                "im in a good mood today",
+                "I am in a good mood today",
+                "i am in a good mood today"
+              ],
+              "direction": "zh-to-en",
+              "difficulty": 2
+            },
+            {
+              "id": "b1-u2-l3-q4",
+              "type": "choice",
+              "prompt": "\"Disappointed\" 是什么意思？",
+              "correctAnswer": "失望的",
+              "acceptableAnswers": [
+                "失望的"
+              ],
+              "difficulty": 2,
+              "options": [
+                "失望的",
+                "兴奋的",
+                "害怕的",
+                "放松的"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "b1-u2-l3-q5",
+              "type": "fill-blank",
+              "prompt": "完成句子：I am ___ of spiders.（我怕蜘蛛）",
+              "correctAnswer": "afraid",
+              "acceptableAnswers": [
+                "afraid",
+                "scared",
+                "frightened"
+              ],
+              "difficulty": 1
+            },
+            {
+              "id": "b1-u2-l3-q6",
+              "type": "translation",
+              "prompt": "请翻译成中文：Don't worry, everything will be fine",
+              "correctAnswer": "别担心，一切都会好的",
+              "acceptableAnswers": [
+                "别担心一切都会好的",
+                "不要担心，一切都会好的",
+                "别担心会好的"
+              ],
+              "direction": "en-to-zh",
+              "difficulty": 2
+            },
+            {
+              "id": "b1-u2-l3-q7",
+              "type": "choice",
+              "prompt": "\"Proud\" 是什么感觉？",
+              "correctAnswer": "骄傲的",
+              "acceptableAnswers": [
+                "骄傲的"
+              ],
+              "difficulty": 1,
+              "options": [
+                "骄傲的",
+                "害羞的",
+                "惊讶的",
+                "困惑的"
+              ],
+              "correctIndex": 0
+            },
+            {
+              "id": "b1-u2-l3-q8",
+              "type": "fill-blank",
+              "prompt": "完成句子：I am really ___ for your help.（非常感谢你的帮助）",
+              "correctAnswer": "grateful",
+              "acceptableAnswers": [
+                "grateful",
+                "thankful",
+                "Glad",
+                "happy",
+                "pleased"
+              ],
+              "difficulty": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

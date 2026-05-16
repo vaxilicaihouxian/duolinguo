@@ -1,0 +1,6 @@
+.page { display: flex; flex-direction: column; min-height: 100vh; min-height: 100dvh; }
+.header { display: flex; align-items: center; justify-content: space-between; padding: var(--duo-space) var(--duo-space-md); border-bottom: 1px solid var(--duo-border); background: var(--duo-bg); }
+.back { font-size: var(--duo-font-lg); color: var(--duo-text-tertiary); padding: 4px; width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; }
+.title { font-size: var(--duo-font-md); font-weight: 600; }
+.spacer { width: 32px; }
+.notFound { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; gap: var(--duo-space-md); }

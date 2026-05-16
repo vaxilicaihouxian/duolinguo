@@ -1,0 +1,20 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.content {
+  flex: 1;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.tabBar {
+  position: sticky;
+  bottom: 0;
+  background: var(--duo-bg);
+  border-top: 1px solid var(--duo-border);
+  z-index: 100;
+}
